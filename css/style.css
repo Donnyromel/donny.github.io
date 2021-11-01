@@ -1,0 +1,39 @@
+body {
+    margin-bottom: 120px;
+    margin-top: 30px;
+}
+
+.jumbotron:after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(64, 91, 226, 0.46);
+}
+
+.row img {
+    width: 300px;
+    height: 200px;
+}
+
+.container .col-sm-6 {
+    padding: 20px;
+}
+
+.motor .row p {
+    font-weight: bold;
+}
+
+.mobil .row p {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 280px){
+    .row img {
+        width: 200px;
+        height: 100px;
+    }
+}
